@@ -1,0 +1,123 @@
+@font-face {
+    font-family: "Trueno";
+    src: url("./Fonts/Trueno-wml2.otf") format("opentype");
+}
+
+@media screen and (max-width: 768px) {
+    .productDetails {
+        margin-left: 0 !important;
+    }
+    .productDetails__banner {
+        margin-bottom: -20px !important;
+    }
+    .productDetails__productDescription {
+        display: none;
+    }
+    .productDetails__leftContainer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .productDetails__rightContainer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 130px;
+    }
+    .productDetails__buttonContainer {
+        padding: 0px !important;
+    }
+    .productDetails__productInfo {
+        padding-right: 0.75rem !important;
+        padding-left: 0.75rem !important;
+    }
+}
+
+.productDetails {
+    overflow-x: hidden;
+    max-width: 100% !important;
+    display: flex !important;
+    flex-direction: column !important;
+    font-family: Trueno;
+    padding: 0px !important;
+}
+
+.productDetails__banner {
+    max-width: 100% !important;
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+    z-index: 1;
+    margin-bottom: -290px !important;
+}
+
+.productDetails__banner > img {
+    width: 100%;
+}
+
+.productDetails__detailsContainer {
+    width: 100%;
+    display: flex;
+    margin-left: 250px;
+    z-index: 10;
+    color: #111;
+}
+
+.productDetails__leftContainer {
+    width: 40%;
+    margin-top: 35px;
+}
+
+.productDetails__leftContainer > img {
+    max-height: 685px;
+    max-width: 100%;
+}
+
+.productDetails__productInfo {
+    margin-top: 150px;
+    width: 70%;
+    height: 600px;
+    font-family: Trueno;
+    margin-left: 25px;
+}
+
+.productDetails__productName {
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.productDetails__productPrice {
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.productDetails__productDescription {
+    font-size: 18px;
+    margin-bottom: 50px;
+    overflow-wrap: break-word;
+    text-align: center;
+    width: 100%;
+}
+
+.productDetails__buttonContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.productDetails__addToCart {
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    background: #bfe349 !important;
+    border: none !important;
+    color: #111 !important;
+    border-radius: 5px !important;
+    height: 40px !important;
+    cursor: pointer !important;
+    font-size: 17px !important;
+    font-family: Trueno !important;
+}

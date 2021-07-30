@@ -1,0 +1,27 @@
+.adminHome {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 230px;
+}
+
+.adminHome__tasksContainer {
+  width: 100% !important;
+}
+
+.adminHome__taskCardContainer1 {
+  width: 100% !important;
+}
+
+.adminHome__taskCardContainer {
+  width: 100% !important;
+}
+
+.adminHome__taskCardContaineOutter {
+  width: 100% !important;
+}
+
+.adminHome__taskCardContainerInner {
+  width: 100% !important;
+}

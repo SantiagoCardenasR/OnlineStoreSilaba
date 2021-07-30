@@ -1,0 +1,153 @@
+.addProduct
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.addProduct__id
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.addProduct__id > p
+{
+    margin-right: 20px;
+}
+
+.addProduct__id > input
+{
+    width: 200px;
+    border: none;
+    border-bottom: 1px solid #bbe432;
+}
+
+.addProduct__id > input:focus
+{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #bbe432;
+}
+
+.addProduct__name
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.addProduct__name > p
+{
+    margin-right: 20px;
+}
+
+.addProduct__name > input
+{
+    width: 200px;
+    border: none;
+    border-bottom: 1px solid #bbe432;
+}
+
+.addProduct__name > input:focus
+{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #bbe432;
+}
+
+.addProduct__image
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.addProduct__image > p
+{
+    margin-right: 20px;
+}
+
+.addProduct__image > input
+{
+    width: 200px;
+    border: none;
+    border-bottom: 1px solid #bbe432;
+}
+
+.addProduct__image > input:focus
+{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #bbe432;
+}
+
+.addProduct__price
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.addProduct__price > p
+{
+    margin-right: 20px;
+}
+
+.addProduct__price > input
+{
+    width: 200px;
+    border: none;
+    border-bottom: 1px solid #bbe432;
+}
+
+.addProduct__price > input:focus
+{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #bbe432;
+}
+
+.addProduct__description
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.addProduct__description > p
+{
+    margin-right: 20px;
+}
+
+.addProduct__description > input
+{
+    width: 200px;
+    border: none;
+    border-bottom: 1px solid #bbe432;
+}
+
+.addProduct__description > input:focus
+{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #bbe432;
+}

@@ -1,0 +1,50 @@
+{
+  "name": "onlinestoresilabacomplete",
+  "homepage": "https://silaba.co/",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "bootstrap": "^4.6.0",
+    "chart": "^0.1.2",
+    "chart.js": "^2.9.3",
+    "firebase": "^7.23.0",
+    "md5": "^2.3.0",
+    "nodemailer": "^6.4.13",
+    "react": "^16.13.1",
+    "react-bootstrap": "^1.5.2",
+    "react-currency-format": "^1.0.0",
+    "react-data-table-component": "^6.11.5",
+    "react-dom": "^16.13.1",
+    "react-google-charts": "^3.0.15",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.3",
+    "react-whatsapp": "^0.2.1",
+    "styled-components": "^5.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

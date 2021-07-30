@@ -1,0 +1,36 @@
+@media screen and (max-width: 768px) {
+    .App {
+        display: flex;
+        flex-direction: column;
+    }
+    .mainPageHeaderNavbar {
+        background-color: white;
+    }
+    .mainPageHeaderNavbarDropdown {
+        background-color: white;
+    }
+}
+* {
+    margin: 0;
+}
+
+.App {
+    height: 100%;
+    display: flex;
+    background-color: rgb(234, 237, 237);
+}
+
+p {
+    margin-bottom: 0px !important;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0px;
+    background-color: rgb(234, 237, 237);
+}
+
+.mainPageHeaderNavbar {
+    background-color: transparent;
+}

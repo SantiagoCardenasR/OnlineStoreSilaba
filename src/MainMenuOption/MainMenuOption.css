@@ -1,0 +1,56 @@
+@media screen and (max-width: 768px) {
+    .mainMenuOption {
+        max-width: 55% !important;
+    }
+    .mainMenuOption__link > .MuiSvgIcon-root {
+        width: 150px !important;
+        height: 150px !important;
+    }
+}
+
+.mainMenuOption {
+    background-color: white;
+    border-radius: 25px;
+    border: none;
+    box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.4);
+    width: fit-content;
+    transition: transform 100ms ease-in;
+    z-index: 1;
+    margin-bottom: 20px;
+}
+
+.mainMenuOption:hover {
+    transform: scale(1.07);
+    cursor: pointer;
+}
+
+.mainMenuOption:hover > .mainMenuOption__link > .MuiSvgIcon-root {
+    color: #1f83e7;
+}
+
+.mainMenuOption__link {
+    text-decoration: none;
+    outline: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainMenuOption__link:hover {
+    text-decoration: none;
+    outline: none;
+}
+
+.mainMenuOption__link > h2 {
+    color: black;
+    font-family: Trueno;
+    margin-bottom: 10px;
+}
+
+.mainMenuOption__link > .MuiSvgIcon-root {
+    width: 200px;
+    height: 200px;
+    color: lightgray;
+    transition: 100ms ease-in-out;
+}

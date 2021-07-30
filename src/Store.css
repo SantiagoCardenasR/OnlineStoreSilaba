@@ -1,0 +1,65 @@
+@media screen and (max-width: 768px) {
+    .store {
+        margin-left: 0px !important;
+    }
+    .store__banner {
+        margin-bottom: -20px !important;
+        padding: 0px !important;
+    }
+}
+
+.store {
+    width: 100%;
+    overflow-x: hidden;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    margin-left: 272px;
+    max-width: 100% !important;
+}
+
+.store__banner {
+    height: 900px;
+    width: 100%;
+    mask-image: linear-gradient(to bottom, rgb(0, 0, 0), rgba(0, 0, 0, 0.5));
+    z-index: 1;
+    margin-bottom: -200px;
+    margin: 0 0 0 272px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.store__banner > img {
+    width: 100%;
+}
+
+.store__items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100% !important;
+    margin: 0px !important;
+    flex-wrap: wrap;
+}
+
+.mobileStore__banner {
+    height: 400px;
+    width: 100%;
+    mask-image: linear-gradient(to bottom, rgb(0, 0, 0), rgba(0, 0, 0, 0.5));
+    z-index: 1;
+    margin-bottom: -200px;
+}
+
+.mobileStore__banner > img {
+    width: 100%;
+}
+
+.mobileStore__items {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

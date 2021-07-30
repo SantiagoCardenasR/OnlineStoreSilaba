@@ -1,0 +1,159 @@
+.register {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /*  margin-bottom: 16px; */
+  background-color: white;
+  height: 950px;
+  overflow: hidden;
+  width: 100%;
+  font-family: Trueno;
+  font-size: 25px !important;
+  color: black !important;
+}
+
+.register__logo {
+  margin-top: 25px;
+  margin-bottom: 18px;
+  height: 80px;
+}
+
+.register__container {
+  padding: 14px 18px;
+  display: block;
+  border: 1px solid #ddd;
+  background-color: white;
+  border-radius: 4px;
+  width: 300px;
+  height: max-content;
+  border-radius: 25px;
+  background-image: linear-gradient(to bottom, #1faee7, #1f83e7, #1f50e7);
+}
+
+.register__container > h1 {
+  margin-bottom: 10px;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 1.2;
+  color: #111;
+  text-align: center;
+  font-size: 40px;
+}
+
+.register__info {
+  text-align: left;
+  width: 100%;
+}
+
+.register__info > form > input {
+  padding: 3px 7px !important;
+  height: 35px !important;
+  background-color: white !important;
+  border: 1px solid #a6a6a6 !important;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5),
+    0 1px 0 rgba(0, 0, 0, 0.07) inset !important;
+  margin-bottom: 15px !important;
+  margin-right: 10px !important;
+  border-radius: 3px !important;
+  width: 95% !important;
+  border: none !important;
+  border-radius: 10px !important;
+  padding-left: 10px !important;
+  font-family: Trueno !important;
+  -webkit-appearance: none !important;
+  -moz-appearance: textfield !important;
+}
+
+.register__info > form > input:focus {
+  border: 2px solid #bfe349;
+  box-shadow: 2 3px 2 rgba(255, 255, 255, 0.5),
+    0 1px 0 rgba(0, 0, 0, 0.07) inset;
+  transition: all 100ms linear;
+}
+
+.register__info > form > button {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: #bfe349;
+  border: none;
+  color: #111;
+  height: 40px;
+  width: 260px;
+  cursor: pointer;
+  font-size: 20px;
+  font-family: Trueno;
+  border-radius: 15px;
+  margin-top: 15px;
+}
+
+.register__info > p {
+  margin-top: 10px;
+  font-size: 14px;
+  width: auto;
+  text-align: center;
+  line-height: 18px;
+  margin-bottom: 26px;
+  color: white;
+}
+
+.register__infoLabel {
+  font-size: 20px;
+}
+
+.register__alreadyAccount {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.14),
+    rgba(0, 0, 0, 0.03) 3px,
+    transparent
+  );
+  margin-bottom: 0px;
+  height: 44px;
+  font-size: 13px;
+  color: white;
+}
+
+.register__alreadyAccount > p {
+  margin-top: 25px;
+  margin-right: 5px;
+  font-size: 14px !important;
+}
+
+.register__links {
+  text-decoration: none;
+}
+
+.register__loginLink {
+  margin-top: 25px;
+  color: #bfe349;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.register__divider {
+  width: 60%;
+  margin-top: 26px;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.14),
+    rgba(0, 0, 0, 0.03) 3px,
+    transparent
+  );
+  line-height: 19px;
+  font-size: 11px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.register__divider > p {
+  text-decoration: underline;
+  cursor: pointer;
+  margin-top: 25px;
+  margin-right: 20px;
+  color: #c45500;
+}

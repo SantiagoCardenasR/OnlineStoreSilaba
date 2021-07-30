@@ -1,0 +1,41 @@
+.home {
+    width: 100%;
+    overflow-x: hidden;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    max-width: 100% !important;
+}
+
+@media screen and (max-width: 768px) {
+    .home__image {
+        margin-bottom: -20px !important;
+    }
+}
+
+.home__image {
+    max-width: 100% !important;
+    max-height: 50%;
+    z-index: 1;
+    margin-bottom: -40px;
+}
+
+.home__row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    z-index: 1;
+    margin: 0 !important;
+    padding: 0 15px 0 15px !important;
+    max-width: 100% !important;
+}
+
+.home__rowMobile {
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    margin-right: 5px;
+    object-fit: contain;
+    overflow-x: hidden;
+}

@@ -1,0 +1,45 @@
+@media screen and (max-width: 768px) {
+    .subtotal__price {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.subtotal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f3f3f3;
+    border: 1px solid #ddd;
+    margin-top: -20px;
+    border-radius: 20px;
+    font-family: Trueno;
+}
+
+.subtotal__gift {
+    text-align: center;
+}
+
+.subtotal__price {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subtotal > button {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+    background: #bfe349;
+    border: none;
+    color: #111;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 17px;
+    font-family: Trueno;
+}

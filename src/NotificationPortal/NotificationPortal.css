@@ -1,0 +1,41 @@
+.notificationPortal {
+    position: absolute;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+    background: rgba(0, 0, 0, 0.75);
+    max-width: 100% !important;
+}
+
+.notificationPortal__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.5);
+    color: black;
+    padding: 20px;
+    width: fit-content;
+}
+
+.notificationPortal__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    cursor: pointer;
+    background-color: #bfe349 !important;
+    border: none !important;
+    border-radius: 15px;
+    color: black !important;
+    width: 20%;
+}
+
+.notificationPortal__button:hover {
+    background: linear-gradient(to bottom, #1faee7, #1f83e7, #1f50e7);
+    color: white !important;
+}

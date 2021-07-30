@@ -1,0 +1,119 @@
+@font-face {
+  font-family: "Trueno";
+  src: url("./Fonts/Trueno-wml2.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Dolgan";
+  src: url("./Fonts/Dolgan-3qB6.ttf");
+}
+
+
+@media screen and (max-width: 768px) {
+  .product__buttonText {
+    display: none;
+  }
+  .product__shoppingCart {
+    color: black !important;
+  }
+}
+
+
+.product {
+  display: flex;
+  flex-direction: column;
+  margin: 10px !important;
+  background-color: white;
+  padding: 20px;
+  width: fit-content !important;
+  z-index: 1;
+}
+
+.product__info {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-width: 350px !important;
+  margin-bottom: 8px;
+}
+
+.product__title {
+  font-size: 25px;
+  /*  font-weight: 700; */
+  font-family: Trueno;
+  color: black;
+}
+
+.product__price {
+  margin-top: 5px;
+  font-size: 25px;
+  color: black;
+}
+
+.product__rating {
+  display: flex;
+}
+
+.product_imageContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: fit-content ;
+}
+
+.product_imageContainer > img {
+  max-height: 300px !important;
+  max-width: 300px !important;
+  object-fit: contain !important;
+  margin-bottom: 10px !important;
+  cursor: pointer !important;
+}
+
+/* .product__ratingStar
+{
+    font-size: 25px !important;
+    color: #1fade7;
+} */
+
+.product__buttonContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  outline: none;
+}
+
+.product__buttonContainer > button {
+  justify-content: center !important;
+  align-items: center !important;
+  text-align: center !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  background: #bfe349 !important;
+  border: none !important;
+  color: #111 !important;
+  border-radius: 5px !important;
+  height: 40px !important;
+  cursor: pointer !important;
+  font-size: 17px !important;
+  font-family: Trueno !important;
+}
+
+.product__button {
+  display: flex !important;
+  outline: none !important;
+  align-items: center !important;
+  justify-content: center !important;
+  border: none;
+}
+
+.product__buttonText {
+  margin-right: 10px;
+}
+
+.product__shoppingCart {
+  font-size: 20px !important;
+  margin: 0 !important;
+  color: white ;
+}
