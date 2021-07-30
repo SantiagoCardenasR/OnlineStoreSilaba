@@ -1,13 +1,12 @@
-import React, {useState} from 'react'
+import React, { useState } from 'react'
 import './Login.css'
 import { Link, useHistory } from 'react-router-dom'
 import { auth } from './firebase';
-import {reference} from './firebase';
+import { reference } from './firebase';
 import { useStateValue } from './StateProvider';
 
-function Login() 
-{
-    const [{user},dispatch] = useStateValue();
+function Login() {
+    const [{ user }, dispatch] = useStateValue();
     const history = useHistory();
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
@@ -17,8 +16,7 @@ function Login()
 
         reference.child("users").on("value", snap => {
             snap.forEach(element => {
-                if(email === element.val().email)
-                {
+                if (email === element.val().email) {
                     dispatch({
                         type: "ADD_USER_DATA",
                         userData: {
@@ -37,32 +35,32 @@ function Login()
             });
         });
 
-        reference.child('shopping_carts/SHPNCRT_'+sessionStorage.getItem('User_id')+'/products/').on("value", snap => {
+        reference.child('shopping_carts/SHPNCRT_' + sessionStorage.getItem('User_id') + '/products/').on("value", snap => {
             snap.forEach(element => {
                 console.log('ENTERS')
                 dispatch({
-                  type: 'ADD_TO_CART',
-                  item: element.val()
+                    type: 'ADD_TO_CART',
+                    item: element.val()
                 });
             })
-          });
-        
+        });
+
         auth
-        .signInWithEmailAndPassword(email, password)
-        .then((auth) => {
-            if(sessionStorage.getItem('User_role') === "Admin") {
-                history.push('/admin')
-            } else {
-                history.push('/');
-            }
-        })
-        .catch(e => alert(e.message));
+            .signInWithEmailAndPassword(email, password)
+            .then((auth) => {
+                if (sessionStorage.getItem('User_role') === "Admin") {
+                    history.push('/admin')
+                } else {
+                    history.push('/');
+                }
+            })
+            .catch(e => alert(e.message));
     }
 
     return (
         <div className="login">
             <Link to="/Tienda">
-                <img className="login__logo" src={require("./images/logo.jpg")} alt="logo"/>
+                <img className="login__logo" src={require("./images/logo.jpg")} alt="logo" />
             </Link>
             <div className="login__container">
                 <h1>Iniciar Sesión</h1>
